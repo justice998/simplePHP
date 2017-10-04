@@ -5,5 +5,6 @@
  * and open the template in the editor.
  */
 echo 111;
+echo 222;
 phpinfo();exit;
 
