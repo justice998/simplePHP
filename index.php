@@ -1,5 +1,5 @@
 <?php
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -11,11 +11,10 @@ define('APP_PATH', __DIR__.'/');
 define('APP_DEBUG', true);
 
 // 加载框架文件
-require(APP_PATH.'fastphp/Fastphp.php');
+require APP_PATH.'fastphp/Fastphp.php';
 
 // 加载配置文件
-$config =  require(APP_PATH . 'config/config.php');
+$config = require APP_PATH.'config/config.php';
 
 // 实例化框架类
 (new Fastphp($config))->run();
-
